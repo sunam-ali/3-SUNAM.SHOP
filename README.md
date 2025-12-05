@@ -1,4 +1,4 @@
-# 🛒 Advanced React E-commerce App
+# 🛒 Mini React E-commerce App
 
 ## Table of Contents
 
