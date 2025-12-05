@@ -1,16 +1,66 @@
-# React + Vite
+# 🛒 Advanced React E-commerce App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Table of Contents
 
-Currently, two official plugins are available:
+- [About](#about)
+- [Features](#features)
+- [Learning Outcomes](#learning-outcomes)
+- [Technologies](#technologies)
+- [Installation](#getting-started)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This is a **learning project** to build an advanced e-commerce website in React.  
+I used **Context API + useReducer** for state management to handle cart, wishlist, stock, discounts, search, and sorting **without props drilling**.  
+It helped me practice **scalable component design** and dynamic state handling.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Add/remove products to cart & wishlist
+- Increase/decrease cart quantity with stock management
+- Dynamic pricing with discounts (`getPriceAfterDiscount`)
+- Subtotal, discount, and total calculations
+- Search products by name
+- Sort by newest, popular, price (low → high / high → low)
+- Reusable components: ProductCard, CartSummary, Wishlist
+- Responsive UI
+
+---
+
+## Learning Outcomes
+
+- Advanced **state management** with Context API + useReducer
+- Creating **reusable React components**
+- Handling dynamic **stock and pricing logic**
+- Implementing **search & sorting**
+- Building **responsive and scalable** React apps
+
+---
+
+## Technologies
+
+- React
+- Tailwind CSS
+- Context API + useReducer
+
+---
+
+---
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/sunam-ali/3-SUNAM.SHOP.git
+cd 3-SUNAM.SHOP
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
