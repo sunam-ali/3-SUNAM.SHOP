@@ -11,7 +11,7 @@ export default function SearchProducts() {
     <div className="flex bg-gray-50 border border-gray-300 focus-within:bg-transparent focus-within:border-gray-500 rounded-3xl px-4 py-2.5 overflow-hidden max-w-52 max-xl:hidden">
       <input
         type="text"
-        onChange={(e) => handleChange(e)}
+        onChange={handleChange}
         value={state.searchQuery}
         placeholder="Search for products..."
         className="w-full text-sm bg-transparent outline-0 pr-2"

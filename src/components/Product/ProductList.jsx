@@ -5,7 +5,7 @@ import SortProduct from "./SortProduct";
 function filterProducts(products, searchQuery) {
   if (!searchQuery.trim()) return products;
   return products.filter((p) =>
-    p.name.toLowerCase().includes(searchQuery.toLowerCase())
+    p.title.toLowerCase().includes(searchQuery.toLowerCase())
   );
 }
 
