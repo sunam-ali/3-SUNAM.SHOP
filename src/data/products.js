@@ -104,7 +104,7 @@ const products = [
     price: 799.99,
     discountPercentage: 18,
     rating: 4.24,
-    stock: 0,
+    stock: 1,
     meta: {
       createdAt: "2025-04-30T09:41:02.054Z",
       updatedAt: "2025-04-30T09:41:02.054Z",
